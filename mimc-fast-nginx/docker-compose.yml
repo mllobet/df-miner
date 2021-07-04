@@ -7,7 +7,7 @@ services:
         deploy:
             resources:
                 limits:
-                    cpus: '4'
+                    cpus: '64'
     nginx:
         build: ./nginx
         ports:
