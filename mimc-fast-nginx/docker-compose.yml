@@ -4,10 +4,6 @@ services:
         build: ./miner
         expose:
             - "8000"
-        deploy:
-            resources:
-                limits:
-                    cpus: '64'
     nginx:
         build: ./nginx
         ports:
